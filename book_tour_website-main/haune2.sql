@@ -87,21 +87,6 @@ CREATE TABLE `users` (
   `user_type` varchar(20) NOT NULL DEFAULT 'user'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `name`, `email`, `password`, `user_type`) VALUES
-(1, 'hau', 'caosonn14@gmail.com', '69893883ef1d57dcd5597cad358e1ddd', 'user'),
-(2, 'hau', 'caosonn141@gmail.com', '69893883ef1d57dcd5597cad358e1ddd', 'admin');
-
---
--- Indexes for dumped tables
---
-
---
--- Indexes for table `cart`
---
 ALTER TABLE `cart`
   ADD PRIMARY KEY (`id`);
 
