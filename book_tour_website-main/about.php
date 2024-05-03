@@ -65,7 +65,7 @@ if (isset($_SESSION['user_id'])) {
         <div class="product-details">
 
             <h1>
-                <!-- Tên nhóm  -->
+                Group 3
             </h1>
 
 
@@ -89,13 +89,10 @@ if (isset($_SESSION['user_id'])) {
 
             <div class="info">
                 <h2>
-                    <!-- Tên nhóm -->
+                    Group 3
                 </h2>
                 <ul class="ia">
-                    <!-- thông tin nhóm -->
-                    <!-- <li></li>
-                    <li></li>
-                    <li></li> -->
+                    ThuongMai University
                 </ul>
             </div>
         </div>
