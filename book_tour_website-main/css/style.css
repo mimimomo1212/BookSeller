@@ -97,7 +97,6 @@ section {
   color: var(--black);
   font-size: 4rem;
 }
-
 .btn,
 .option-btn,
 .delete-btn,
@@ -977,3 +976,5 @@ section {
     font-size: 3rem;
   }
 }
+
+

@@ -37,20 +37,19 @@ if (isset($message)) {
                 <?php } ?>
                 <div id="user-btn" class="fas fa-user"></div>
                 <?php if (isset($user_id)) { ?>
-                <a href="cart.php"> <i class="fas fa-shopping-cart"></i> <span>(<?= $cart_rows_number; ?>)</span>
-                </a>
+                    <a href="cart.php"> <i class="fas fa-shopping-cart"></i> <span>(<?= $cart_rows_number; ?>)</span>
+                    </a>
                 <?php } ?>
             </div>
 
             <div class="user-box">
                 <?php if (!isset($user_id)) { ?>
-                <p><a class="delete-btn" href="login.php">login</a> <br /> or <br /> <a class="delete-btn"
-                        href="register.php">register</a></p>
+                    <p><a class="delete-btn" href="login.php">login</a> <br /> or <br /> <a class="delete-btn" href="register.php">register</a></p>
                 <?php } ?>
                 <?php if (isset($user_id)) { ?>
-                <p>username : <span><?php echo $_SESSION['user_name']; ?></span></p>
-                <p>email : <span><?php echo $_SESSION['user_email']; ?></span></p>
-                <a href="logout.php" class="delete-btn">logout</a>
+                    <p>username : <span><?php echo $_SESSION['user_name']; ?></span></p>
+                    <p>email : <span><?php echo $_SESSION['user_email']; ?></span></p>
+                    <a href="logout.php" class="delete-btn">logout</a>
                 <?php } ?>
             </div>
         </div>

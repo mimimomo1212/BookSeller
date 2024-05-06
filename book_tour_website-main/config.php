@@ -1,3 +1,3 @@
 <?php
 
-$conn = mysqli_connect('localhost','root','index.php','haune2') or die('connection failed');
+$conn = mysqli_connect('localhost','root','','haune2') or die('connection failed');
